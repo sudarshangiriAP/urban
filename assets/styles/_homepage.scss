@@ -1,0 +1,177 @@
+.main-bg {
+    background-color: #00a261;
+}
+
+.logo-height {
+    height: 55px;
+}
+
+.main-btn {
+    background-color: #fec84c !important;
+}
+
+.banner-section {
+    position: relative;
+    .banner-content {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        h1 {
+            font-size: 60px;
+            letter-spacing: 1px;
+            line-height: 70px;
+            color: #222222;
+            font-weight: bold;
+            font-family: "V AG Rounded Std";
+        }
+        p {
+            width: 609px;
+            height: 57px;
+            font-size: 22px;
+            letter-spacing: 0px;
+            line-height: 32px;
+            color: #333333;
+            font-family: "V AG Rounded Std"
+        }
+    }
+    .req-btn {
+        background: transparent;
+        border: 2px solid #00a261;
+        color: #00a261;
+    }
+}
+
+.info-card {
+    position: relative;
+    margin-top: -85px;
+    margin-bottom: 100px;
+    .infos {
+        z-index: 1;
+        filter: drop-shadow(9.205px 3.907px 25px rgba(0, 1, 1, 0.12));
+        background-color: #ffffff;
+        border: 1px solid #e4e4e4;
+        .bg-info-img {
+            position: absolute;
+            right: 18%;
+            bottom: 25%;
+            opacity: 0.1;
+            transform: scale(2.5);
+        }
+    }
+}
+
+.about-content {
+    margin-bottom: 100px;
+    .abt-header {
+        font-size: 20px;
+        line-height: 45px;
+        color: #00a261;
+        font-weight: 300;
+        font-family: "V AG Rounded Std";
+    }
+    .abt-title {
+        font-size: 45px;
+        line-height: 45px;
+        color: #222222;
+        font-weight: bold;
+        font-family: "V AG Rounded Std";
+        margin-bottom: 30px;
+        display: block;
+    }
+    p {
+        font-size: 20px;
+        letter-spacing: 0px;
+        line-height: 32px;
+        color: #666666;
+        font-family: "V AG Rounded Std";
+    }
+    .read-more {
+        border-radius: 3px;
+        background-color: #00a261;
+    }
+}
+
+.download-app-section {
+    margin-bottom: 100px;
+    background-color: #e8f5f0;
+    .abt-download {
+        margin-top: 110px;
+    }
+    .download-header {
+        font-size: 20px;
+        line-height: 45px;
+        color: #00a261;
+        font-weight: 300;
+        font-family: "V AG Rounded Std";
+    }
+    .download-title {
+        font-size: 45px;
+        line-height: 45px;
+        color: #222222;
+        font-weight: bold;
+        font-family: "V AG Rounded Std";
+        margin-bottom: 30px;
+        display: block;
+    }
+    p {
+        font-size: 20px;
+        letter-spacing: 0px;
+        line-height: 32px;
+        color: #666666;
+        font-family: "V AG Rounded Std";
+    }
+    .access-login {
+        font-size: 20px;
+        line-height: 30px;
+        color: #ffffff;
+        font-weight: bold;
+        font-family: "V AG Rounded Std";
+        border-radius: 5px;
+        filter: drop-shadow(15px 25.981px 25px rgba(0, 0, 0, 0.1));
+        background-color: #00a261;
+    }
+    .login-access {
+        color: white;
+    }
+    .download-link {
+        font-size: 18px;
+        line-height: 38px;
+        color: #333333;
+        font-weight: bold;
+        font-family: "V AG Rounded Std";
+        margin-top: 40px;
+    }
+    .follow-link {
+        font-size: 18px;
+        color: #666666;
+        font-weight: 300;
+        font-family: "V AG Rounded Std";
+        margin-top: 40px;
+        a {
+            color: #00a261;
+        }
+    }
+}
+
+.get-quote {
+    background-color: #00a261;
+    padding: 40px 0;
+    .main-quote {
+        font-size: 40px;
+        line-height: 45px;
+        color: #fefefe;
+        font-weight: bold;
+        font-family: "V AG Rounded Std";
+    }
+    .main-quote-btn {
+        border-radius: 3px;
+        background-color: #fec84c;
+        color: black;
+    }
+    .req-quote-btn {
+        border-radius: 3px;
+        background-color: rgba(0, 110, 81, 0);
+        border: 2px solid #ffffff;
+        color: white;
+    }
+}

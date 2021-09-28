@@ -1,56 +1,201 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/styles/style.css">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Urban Impact</title>
+</head>
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-      <!--navbar start-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<body>
+    <!--Top Header-->
+    <div class="top-header main-bg">
+        <div class="container">
+            <div class="row py-2">
+                <div class="col-md-2 text-white">
+                    <i class="bi bi-telephone-fill pe-2"></i><span class="fw-bold">604.273.0089</span>
+                </div>
+                <div class="col-md-3 text-white">
+                    <i class="bi bi-envelope-fill pe-2"></i><span class="fw-bold">info@urbanimpact.com</span>
+                </div>
+                <div class="col-md-7 text-white d-flex justify-content-end">
+                    <i class="bi bi-geo-alt-fill pe-2"></i><span class="fw-bold">5 Capilano Way New Westminister, BC V3L 5G3</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--navbar start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid container">
+            <a class="navbar-brand" href="#"><img src="assets/images/homepage/logo.png" alt="logo" class="d-inline-block align-text-top logo-height"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active fw-bold" aria-current="page" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link fw-bold" href="#">INDUSTRIES SERVED</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link fw-bold" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link fw-bold" href="#">JOIN OUR TEAM</a>
+                    </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+                <form class="d-flex">
+                    <input class="form-control me-2 border border-2 border-dark w-75" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn main-btn w-100 fw-bold" type="submit">GET A FREE QUOTE</button>
+                </form>
+            </div>
         </div>
-      </nav>
-      <!--navbar end-->
+    </nav>
+    <!--navbar end-->
+    <!--Banner-->
+    <div class="banner-section">
+        <div class="banner-img">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/homepage/homeBanner.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-content">
+            <h1>RECYCLING AT WORK</h1>
+            <p>For over 30 years, we have helped our customers with all their waste, recycling, and shredding needs.</p>
+            <button class="btn main-btn btn-lg fw-bold" type="submit">GET A FREE QUOTE</button>
+            <button class="btn req-btn btn-lg fw-bold ms-3" type="submit">REQUEST A PICKUP</button>
+        </div>
+    </div>
+    <!--End banner-->
+    <!--Card-->
+    <div class="info-card">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 shadow-sm p-4 infos">
+                    <img src="assets/images/homepage/recycling.png" alt="">
+                    <h2 class="fw-bold py-2">Recycling</h2>
+                    <p>Urban Impact can scale our recycling services for any size business.</p>
+                    <img src="assets/images/homepage/recycling.png" alt="" class="bg-info-img">
+                </div>
 
-      <h1>Welcome</h1>
+                <div class="col-md-3 shadow-sm p-4 infos">
+                    <img src="assets/images/homepage/garbage.png" alt="">
+                    <h2 class="fw-bold py-2">Shredding</h2>
+                    <p>Urban Impact safely shredsyour sensitive documents onsite and in compliance with privacy laws.</p>
+                    <img src="assets/images/homepage/garbage.png" alt="" class="bg-info-img">
+                </div>
+
+                <div class="col-md-3 shadow-sm p-4 infos">
+                    <img src="assets/images/homepage/garbage.png" alt="">
+                    <h2 class="fw-bold py-2">Garbage</h2>
+                    <p>Urban Impact collects.</p>
+                    <img src="assets/images/homepage/garbage.png" alt="" class="bg-info-img">
+                </div>
+
+                <div class="col-md-3 shadow-sm p-4 infos">
+                    <img src="assets/images/homepage/solutions.png" alt="">
+                    <h2 class="fw-bold py-2">Solutions</h2>
+                    <p>Urban Impact is an expert in providing waste consulting and waste audits.</p>
+                    <img src="assets/images/homepage/solutions.png" alt="" class="bg-info-img">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--End info card-->
+
+    <!--About-->
+    <div class="about-content container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="assets/images/homepage/about-urban.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-6">
+                <p class="abt-header">About Urban Impact</p>
+
+                <span class="abt-title">Urban Impact is committed to Zero Waste! </span>
+                <p>
+                    Recycling is <strong>constantly evolving.</strong> Your Urban Impact solution includes ongoing monitoring so we can ‘right-size’ services as your recycling needs change.
+                </p>
+                <p>First, we generally recommend a site visit to review your site and space requirements. Then, we'll listen to your goals to develop innovative, customized solutions to meet your needs. We'll recommend the right type and number of bins to
+                    allow for your employees to easily use the recycling and shredding containers.
+                </p>
+                <button class="btn read-more text-white fw-bold mt-3" type="submit">READ MORE ABOUT US</button>
+            </div>
+        </div>
+    </div>
+    <!--End About-->
+
+    <!--Donwnload App-->
+    <div class="download-app-section primary-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 abt-download">
+                    <p class="download-header">What new in the App</p>
+                    <span class="download-title">Urban Impact is committed to Zero Waste! </span>
+                    <p>
+                        Urban Impact is committed to Zero Waste! We now offer a new App where you can: Check your <strong>Service Schedule </strong> or <strong>Request a Pick up.</strong> Do you have a question on where to recycle a product? The handy
+                        <strong>Waste Wizard </strong>will tell you! The new App is exclusively available to our customers.
+                    </p>
+                    <div class="access-login p-4">
+                        To access any of the features of the app you must first enter your unique customer number and site number in order to <a href="" class="login-access">Log In</a>.
+                    </div>
+                    <p>
+                        We are committed to protecting the privacy of our customers.
+                    </p>
+                    <div class="download-link fw-bold">
+                        Download App:
+                        <img src="assets/images/homepage/googleplay.png" alt="">
+                        <img src="assets/images/homepage/apple_store.png" alt="">
+                    </div>
+
+                    <p class="follow-link">The calendar and online wizard are also available on our website. <a href="#"> Follow this link.</a></p>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/homepage/download_the_app.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Download app-->
+
+    <!--Blog Post Section-->
+    <div class="blog-section">
+
+    </div>
+
+    <!--End blog section-->
+
+    <!--Get qoute now-->
+    <div class="get-quote">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 main-quote">GET THE QUOTE NOW!</div>
+                <div class="col-md-6">
+                    <button class="btn main-quote-btn btn-lg fw-bold" type="submit">GET A QUOTE TODAY</button>
+                    <button class="btn req-quote-btn btn-lg fw-bold ms-3" type="submit">REQUEST A PICKUP</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
 
 
 
@@ -60,6 +205,7 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-   
-  </body>
+
+</body>
+
 </html>
