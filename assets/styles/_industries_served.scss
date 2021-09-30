@@ -1,15 +1,236 @@
-.banner{
-    background-image:url(../Industries-image/banner.png);
-    background-repeat: no-repeat;
-    height: 342px;
+body {
+  font-family: "V AG Rounded Std";
+}
 
-    h2{
-        padding-top: 93px;
-        font-size: 60px;
-        letter-spacing: 1px;
-        line-height: 70px;
-        color: #ffffff;
-        font-weight: bold;
-        font-family: "V AG Rounded Std";
+.banner {
+  background-image: url(../Industries-image/banner.png);
+  background-repeat: no-repeat;
+  height: 350px;
+
+  h2 {
+    padding-top: 93px;
+    font-size: 60px;
+    letter-spacing: 1px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+}
+
+.cntnt-outer {
+  padding: 98px 215px 21px;
+}
+
+.content {
+  text-align: center;
+
+  p {
+    margin-bottom: 0px;
+    font-size: 20px;
+    line-height: 45px;
+    color: #00a261;
+    font-weight: 300;
+    text-align: center;
+  }
+  h3 {
+    font-size: 45px;
+    line-height: 45px;
+    color: #222222;
+    font-weight: bold;
+    text-align: center;
+  }
+  span {
+    width: 871px;
+    height: 102px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 35px;
+    color: #666666;
+    text-align: center;
+  }
+}
+
+.ind-detail {
+  text-align: center;
+  width: 289px;
+  height: 245px;
+  border-radius: 5px;
+  filter: drop-shadow(10px 17.321px 20px rgba(3, 3, 3, 0.15));
+  background-color: #00a261;
+  box-shadow: 3px -2px 27px 0px #00a26173;
+
+  h3 {
+    font-size: 30px;
+    line-height: 45px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  span {
+    width: 275px;
+    height: 39px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  a {
+    font-size: 16px;
+    color: #ffffff !important;
+    font-weight: bold;
+    text-align: center;
+
+    :hover{
+
     }
+  }
+
+}
+
+.indust {
+  h2 {
+    font-size: 20px;
+    line-height: 123px;
+    color: #222222;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .ind-row {
+    padding: 68px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+.ind {
+  position: relative;
+  width: 190px;
+  height: 190px;
+  border-radius: 95px;
+  background-color: #62dbaa66;;
+  margin-top: -102px;
+  margin-left: 29px;
+}
+
+.ind-detail-outer {
+  position: absolute;
+  right: 25px;
+  top: 15px;
+  bottom: 0px;
+  left: 16px;
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+  filter: drop-shadow(10px 17.321px 15px rgba(0, 1, 1, 0.1));
+  background-color: #ffffff;
+
+  img {
+    margin-top: 33px;
+    padding-top: 46px 0px 0px -2px;
+    width: 89px;
+    height: 85px;
+  }
+}
+
+// Offer section
+.offer-cover{
+    img{
+        width: 100%;
+    }
+}
+
+.offer-outer {
+  width: 100%;
+  height: 704px;
+  background-color: #01a36a;
+
+  .offer-cntnt {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 61px;
+
+    p {
+      font-size: 20px;
+      line-height: 45px;
+      color: #ffffff;
+      font-weight: 300;
+    }
+    h2 {
+      font-size: 45px;
+      line-height: 45px;
+      color: #ffffff;
+      font-weight: bold;
+    }
+  }
+}
+
+.offer {
+  justify-content: space-around;
+  padding: 18px 99px 107px 99px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.offer-container {
+  padding: 20px;
+  width: 290px;
+  height: 345px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ececec;
+
+  h2 {
+    font-size: 26px;
+    color: #333333;
+    font-weight: bold;
+  }
+
+  p {
+    width: 258px;
+    height: 175px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #666666;
+    font-weight: 300;
+  }
+
+  img {
+    padding-bottom: 30px;
+  }
+}
+
+// Diversion Certificate
+.cert-row{
+    padding: 98px 0px 0px 10px;
+}
+
+.cert-cnt {
+    padding: 68px 80px 0px 0px;
+
+  p {
+    font-size: 20px;
+    line-height: 16px;
+    color: #00a261;
+    font-weight: 300;
+  }
+
+  h3{
+    font-size: 45px;
+    line-height: 45px;
+    color: #222222;
+    font-weight: bold;
+  }
+
+  span {
+    width: 574px;
+    height: 385px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    color: #666666;
+  }
 }
