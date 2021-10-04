@@ -7,6 +7,12 @@ body {
   background-repeat: no-repeat;
   height: 350px;
 
+  .banner-wrapper {
+    //   width: 1600px;
+    height: 350px;
+    background-image: $banner-shade;
+  }
+
   h2 {
     display: table-caption;
     padding-top: 93px;
