@@ -7,6 +7,9 @@ body{
     padding: 0;
 }
 
-@import 'fonts';
+@import './configs/fonts';
+@import './configs/colors';
 @import 'homepage';
 @import 'industries_served';
+@import 'industries_served_manufacturing';
+@import 'industries_served_office';
