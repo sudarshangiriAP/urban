@@ -1,15 +1,18 @@
-*{
-    box-sizing: border-box;
-
+* {
+  box-sizing: border-box;
 }
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-@import './configs/fonts';
-@import './configs/colors';
-@import 'homepage';
-@import 'industries_served';
-@import 'industries_served_manufacturing';
-@import 'industries_served_office';
+@import "./configs/fonts";
+@import "./configs/colors";
+@import "general";
+@import "homepage";
+@import "industries_served";
+@import "industries_served_manufacturing";
+@import "industries_served_office";
+@import "industries_served_retail";
+@import "industries_served_school";
+
