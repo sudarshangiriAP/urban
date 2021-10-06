@@ -14,6 +14,10 @@
   .image-wrap {
     padding-right: 67px;
 
+    .img-row{
+      row-gap: 25px;
+    }
+
     img {
       width: 100%;
       height: auto;
@@ -87,7 +91,7 @@
     }
 
     h3 {
-      color:$primary-white;
+      color: $primary-white;
       padding-bottom: 10px;
     }
 
@@ -199,8 +203,7 @@
     padding: unset;
   }
 
-
-  .cust-soln-section .serv-ctnt{
+  .cust-soln-section .serv-ctnt {
     padding: 0px 12px 10px 12px;
   }
 }
