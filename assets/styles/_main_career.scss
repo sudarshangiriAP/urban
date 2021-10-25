@@ -1,0 +1,253 @@
+.great-pep-section {
+  .image-wrap {
+    padding-right: 67px;
+
+    .img-row {
+      row-gap: 25px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+      font-size: 20px;
+      letter-spacing: 0px;
+      line-height: 32px;
+      color: #666666;
+    }
+  }
+}
+
+.carrer-wantYou-section {
+  background-color: $primary-green;
+  color: $primary-white;
+
+  .left-side{
+      padding-right: 50px;
+  }
+
+  ul {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 35px;
+    display: block;
+    list-style: none;
+    //   margin-top: 10px;
+    padding-left: 0px;
+
+    // Font Awesome icon
+    .fas {
+      font-size: 14px;
+      letter-spacing: 6px;
+      line-height: 38px;
+      color: #ffffff;
+    }
+  }
+
+  p {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 32px;
+  }
+
+  h3 {
+    color: $primary-white;
+    padding-bottom: 10px;
+  }
+
+  span {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .d-flex {
+    .btn1 {
+      font-size: 20px;
+      margin-right: 10px;
+    }
+    .btn2 {
+      font-size: 20px;
+      color: $primary-white;
+      border: 2px solid $primary-white;
+    }
+  }
+}
+
+.mainCareer-recylingSorters-section {
+  .image-wrap {
+    padding-right: 67px;
+
+    .img-row {
+      row-gap: 25px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .left-side {
+    line-height: $line-height;
+
+    h6 {
+      font-size: 20px;
+      line-height: 45px;
+      color: #00a261;
+      font-weight: 300;
+      font-family: "V AG Rounded Std";
+    }
+
+    p {
+      font-size: 20px;
+      letter-spacing: 0px;
+      line-height: 32px;
+      color: #666666;
+      font-family: "V AG Rounded Std";
+    }
+    span {
+      font-size: 22px;
+      letter-spacing: 0px;
+      line-height: 32px;
+      color: #333333;
+      font-weight: bold;
+      font-family: "V AG Rounded Std";
+    }
+    ul {
+      font-size: 20px;
+      letter-spacing: 0px;
+      line-height: 32px;
+      display: block;
+      list-style: none;
+      padding-left: 0px;
+
+      li {
+        display: flex;
+      }
+
+      // Font Awesome icon
+      .fas {
+        font-size: 12px;
+        letter-spacing: 8px;
+        line-height: 35px;
+        color: $primary-green;
+      }
+    }
+
+    .d-flex {
+      border-radius: 3px;
+      padding-top: 15px;
+
+      .btn1 {
+        margin-right: 10px;
+        font-size: 20px;
+      }
+
+      .btn2 {
+        border-radius: 3px;
+        background-color: rgba(0, 110, 81, 0);
+        border: 2px solid $primary-green;
+        font-size: 20px;
+        color: $primary-green;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.mainCareer-everyone-has-voice-section{
+  width: 100%;
+  background-color: #e8f5f0;
+  background-image: url(/assets/images/main_career/back.png);
+  background-repeat: no-repeat;
+  background-position: right;
+
+  .image-wrap {
+    padding-right: 67px;
+
+    .img-row {
+      row-gap: 25px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .left-side {
+    line-height: $line-height;
+    padding-right: 55px;
+
+    h6 {
+      font-size: 20px;
+      line-height: 45px;
+      color: #00a261;
+      font-weight: 300;
+      font-family: "V AG Rounded Std";
+    }
+
+    p {
+      font-size: 20px;
+      letter-spacing: 0px;
+      line-height: 32px;
+      color: #666666;
+      font-family: "V AG Rounded Std";
+    }
+  
+    ul {
+      font-size: 20px;
+      letter-spacing: 0px;
+      line-height: 32px;
+      display: block;
+      list-style: none;
+      padding-left: 0px;
+
+      li {
+        display: flex;
+      }
+
+      // Font Awesome icon
+      .fas {
+        font-size: 12px;
+        letter-spacing: 8px;
+        line-height: 35px;
+        color: $primary-green;
+      }
+    }
+
+    .d-flex {
+      border-radius: 3px;
+      padding-top: 15px;
+
+      .btn1 {
+        margin-right: 10px;
+        font-size: 20px;
+      }
+
+      .btn2 {
+        border-radius: 3px;
+        background-color: rgba(0, 110, 81, 0);
+        border: 2px solid $primary-green;
+        font-size: 20px;
+        color: $primary-green;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+  }
+}
+
+

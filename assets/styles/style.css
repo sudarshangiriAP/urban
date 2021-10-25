@@ -26,8 +26,404 @@ body {
   font-weight: 700;
 }
 
-body {
+.section {
+  padding: 100px 0px;
+}
+
+.section-title {
+  font-size: 45px;
+  line-height: 45px;
+  color: #222222;
+  font-weight: bold;
+  font-family: 'V AG Rounded Std';
+}
+
+.main-bg {
+  background-color: #00a261;
+}
+
+.logo-height {
+  height: 55px;
+}
+
+.main-btn {
+  background-color: #fec84c !important;
+}
+
+.btn {
   font-family: "V AG Rounded Std";
+}
+
+.top-header span {
+  font-family: "V AG Rounded Std";
+  font-weight: 300;
+}
+
+.navbar ul li a {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  color: #333333;
+  font-weight: 300;
+  font-family: "V AG Rounded Std";
+}
+
+.banner-section {
+  position: relative;
+}
+
+.banner-section .banner-content {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+}
+
+.banner-section .banner-content h1 {
+  font-size: 60px;
+  letter-spacing: 1px;
+  line-height: 70px;
+  color: #222222;
+  font-weight: bold;
+  font-family: "V AG Rounded Std";
+}
+
+.banner-section .banner-content p {
+  width: 609px;
+  height: 57px;
+  font-size: 22px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #333333;
+  font-family: "V AG Rounded Std";
+}
+
+.banner-section .req-btn {
+  background: transparent;
+  border: 2px solid #00a261;
+  color: #00a261;
+}
+
+.info-card {
+  position: relative;
+  margin-top: -85px;
+  margin-bottom: 100px;
+}
+
+.info-card .infos {
+  z-index: 1;
+  -webkit-filter: drop-shadow(9.205px 3.907px 25px rgba(0, 1, 1, 0.12));
+          filter: drop-shadow(9.205px 3.907px 25px rgba(0, 1, 1, 0.12));
+  background-color: #ffffff;
+  border: 1px solid #e4e4e4;
+}
+
+.info-card .infos .info-main-img {
+  -webkit-filter: invert(27%) sepia(82%) saturate(1341%) hue-rotate(78deg) brightness(112%) contrast(135%);
+          filter: invert(27%) sepia(82%) saturate(1341%) hue-rotate(78deg) brightness(112%) contrast(135%);
+  width: 75px;
+}
+
+.info-card .infos .bg-info-img {
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+  opacity: 0.1;
+  -webkit-filter: invert(27%) sepia(82%) saturate(1341%) hue-rotate(78deg) brightness(112%) contrast(135%);
+          filter: invert(27%) sepia(82%) saturate(1341%) hue-rotate(78deg) brightness(112%) contrast(135%);
+  width: 140px;
+}
+
+.info-card .infos h2 {
+  font-size: 26px;
+  color: #333333;
+  font-weight: bold;
+  font-family: "V AG Rounded Std";
+}
+
+.info-card .infos p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #666666;
+  font-weight: 300;
+  font-family: "V AG Rounded Std";
+}
+
+.info-card .infos .learn-more {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  font-family: "V AG Rounded Std";
+  text-align: center;
+}
+
+.info-card .infos:hover {
+  background-color: #00a261;
+  border: 1px solid #e4e4e4;
+}
+
+.info-card .infos:hover .info-main-img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  width: 75px;
+}
+
+.info-card .infos:hover h2 {
+  color: white;
+}
+
+.info-card .infos:hover p {
+  color: white;
+}
+
+.info-card .infos:hover .bg-info-img {
+  display: none;
+}
+
+.about-content {
+  margin-bottom: 100px;
+}
+
+.about-content .abt-header {
+  font-size: 20px;
+  line-height: 45px;
+  color: #00a261;
+  font-weight: 300;
+  font-family: "V AG Rounded Std";
+}
+
+.about-content .abt-title {
+  font-size: 45px;
+  line-height: 45px;
+  color: #222222;
+  font-weight: bold;
+  font-family: "V AG Rounded Std";
+  margin-bottom: 30px;
+  display: block;
+}
+
+.about-content p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #666666;
+  font-family: "V AG Rounded Std";
+}
+
+.about-content .read-more {
+  border-radius: 3px;
+  background-color: #00a261;
+}
+
+.download-app-section {
+  background-color: #e8f5f0;
+}
+
+.download-app-section .abt-download {
+  margin-top: 110px;
+}
+
+.download-app-section .download-header {
+  font-size: 20px;
+  line-height: 45px;
+  color: #00a261;
+  font-weight: 300;
+  font-family: "V AG Rounded Std";
+}
+
+.download-app-section .download-title {
+  font-size: 45px;
+  line-height: 45px;
+  color: #222222;
+  font-weight: bold;
+  font-family: "V AG Rounded Std";
+  margin-bottom: 30px;
+  display: block;
+}
+
+.download-app-section p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #666666;
+  font-family: "V AG Rounded Std";
+}
+
+.download-app-section .access-login {
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "V AG Rounded Std";
+  border-radius: 5px;
+  -webkit-filter: drop-shadow(15px 25.981px 25px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(15px 25.981px 25px rgba(0, 0, 0, 0.1));
+  background-color: #00a261;
+}
+
+.download-app-section .login-access {
+  color: white;
+}
+
+.download-app-section .download-link {
+  font-size: 18px;
+  line-height: 38px;
+  color: #333333;
+  font-weight: bold;
+  font-family: "V AG Rounded Std";
+  margin-top: 40px;
+}
+
+.download-app-section .follow-link {
+  font-size: 18px;
+  color: #666666;
+  font-weight: 300;
+  font-family: "V AG Rounded Std";
+  margin-top: 40px;
+}
+
+.download-app-section .follow-link a {
+  color: #00a261;
+}
+
+.join-team-section {
+  position: relative;
+}
+
+.join-team-section .desc-content {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+}
+
+.join-team-section .header {
+  font-size: 20px;
+  line-height: 45px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "V AG Rounded Std";
+}
+
+.join-team-section .sub-header {
+  font-size: 45px;
+  line-height: 45px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "V AG Rounded Std";
+}
+
+.join-team-section .desc {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "V AG Rounded Std";
+}
+
+.join-team-section .sub-desc {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "V AG Rounded Std";
+}
+
+.join-team-section .main-content {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+
+.join-team-section .main-content .line-brk {
+  background-color: white;
+}
+
+.join-team-section .main-content .content-bg .content-txt {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 28px;
+  color: #ffffff;
+  font-family: "V AG Rounded Std";
+  margin-left: 20px;
+}
+
+.get-quote {
+  background-color: #00a261;
+  padding: 40px 0;
+}
+
+.get-quote .main-quote {
+  font-size: 40px;
+  line-height: 45px;
+  color: #fefefe;
+  font-weight: bold;
+  font-family: "V AG Rounded Std";
+}
+
+.get-quote .main-quote-btn {
+  border-radius: 3px;
+  background-color: #fec84c;
+  color: black;
+  font-family: "V AG Rounded Std";
+}
+
+.get-quote .req-quote-btn {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #ffffff;
+  color: white;
+  font-family: "V AG Rounded Std";
+}
+
+.footer-section {
+  background-color: #222222;
+}
+
+.footer-section h3 {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "V AG Rounded Std";
+  position: relative;
+}
+
+.footer-section h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 10%;
+  border-bottom: 2px solid #00a261;
+  top: 35px;
+}
+
+.footer-section ul {
+  padding-left: unset;
+  padding-top: 20px;
+}
+
+.footer-section li {
+  list-style-type: none;
+  padding-bottom: 15px;
+}
+
+.footer-section .contact-info div {
+  padding-top: 20px;
+}
+
+.footer-section .contact-info .icon-bg {
+  color: #00a261;
+}
+
+.footer-section .social-icon {
+  border-radius: 50%;
+  background-color: #1e1e1e;
+  padding: 15px;
 }
 
 .banner {
@@ -36,7 +432,13 @@ body {
   height: 350px;
 }
 
+.banner .banner-wrapper {
+  height: 350px;
+  background-image: linear-gradient(60deg, #000000a3 0%, #23222259 74%);
+}
+
 .banner h2 {
+  display: table-caption;
   padding-top: 93px;
   font-size: 60px;
   letter-spacing: 1px;
@@ -111,10 +513,18 @@ body {
 }
 
 .ind-detail a {
+  position: relative;
+  text-decoration: none;
   font-size: 16px;
-  color: #ffffff !important;
+  color: #ffffff;
   font-weight: bold;
   text-align: center;
+}
+
+.ind-detail a:hover {
+  cursor: pointer;
+  color: #fec84c;
+  text-decoration: underline;
 }
 
 .indust h2 {
@@ -174,7 +584,7 @@ body {
 .offer-outer {
   width: 100%;
   height: 704px;
-  background-color: #01a36a;
+  background-color: #00a261;
 }
 
 .offer-outer .offer-cntnt {
@@ -198,14 +608,14 @@ body {
 }
 
 .offer {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 18px 99px 107px 99px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 18px 99px 107px 99px;
 }
 
 .offer-container {
@@ -265,5 +675,2185 @@ body {
   letter-spacing: 0px;
   line-height: 32px;
   color: #666666;
+}
+
+.banner.manufacturing-banner .banner-wrapper ::before {
+  position: absolute;
+  content: "";
+  background-image: linear-gradient(60deg, #000000a3 0%, #23222259 74%);
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.banner.manufacturing-banner .banner-wrapper {
+  position: relative;
+  position: absolute;
+  height: 350px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.manu-banner {
+  padding: 109px 0px;
+}
+
+.manu-banner .ban-first-col {
+  width: 575px;
+  height: 580px;
+  border-radius: 10px;
+  background-color: #000000;
+}
+
+.manu-banner .left-side {
+  line-height: 29px;
+}
+
+.manu-banner .left-side p {
+  font-size: 20px;
+  line-height: 45px;
+  color: #00a261;
+  font-weight: 300;
+}
+
+.manu-banner .left-side h3 {
+  font-size: 45px;
+  line-height: 45px;
+  color: #222222;
+  font-weight: bold;
+}
+
+.manu-banner .left-side ul {
+  display: block;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.manu-banner .left-side ul .fas {
+  font-size: 12px;
+  letter-spacing: 8px;
+  line-height: 35px;
+  color: #00a261;
+}
+
+.manu-banner .left-side span {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.manu-banner .left-side .d-flex {
+  border-radius: 3px;
+  padding-top: 15px;
+}
+
+.manu-banner .left-side .d-flex .btn1 {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.manu-banner .left-side .d-flex .btn2 {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #00a261;
+  font-size: 20px;
+  color: #00a261;
+  font-weight: bold;
+  text-align: center;
+}
+
+.serv-wrap {
+  width: 100%;
+  height: 905px;
+  background-color: #00a261;
+}
+
+.serv-wrap .row {
+  padding: 92px 0px;
+}
+
+.serv-wrap .serv-ctnt {
+  color: #ffffff;
+  padding: 11px 73px 0px 0px;
+}
+
+.serv-wrap .serv-ctnt p {
+  line-height: 45px;
+  font-size: 20px;
+}
+
+.serv-wrap .serv-ctnt h3 {
+  line-height: 45px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.serv-wrap .serv-ctnt span {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.serv-wrap .serv-ctnt .d-flex .btn1 {
+  margin-right: 10px;
+}
+
+.serv-wrap .serv-ctnt .d-flex .btn2 {
+  color: #ffffff;
+  border: 2px solid #ffff;
+}
+
+.db-wrapper {
+  width: 100%;
+  background-color: #e8f5f0;
+  background-image: url(/assets/images/industries_served_manufacturing/back_img.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.db-wrapper .db-content {
+  padding: 100px 0px;
+  text-align: center;
+}
+
+.db-wrapper .db-content .db-content-top {
+  padding: 20px 225px;
+}
+
+.db-wrapper .db-content .db-content-top p {
+  color: #00a261;
+  line-height: 45px;
+  font-size: 20px;
+}
+
+.db-wrapper .db-content .db-content-top h3 {
+  font-size: 45px;
+  line-height: 45px;
+  color: #222222;
+  font-weight: bold;
+}
+
+.db-wrapper .db-content .db-content-top span {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #666666;
+  text-align: center;
+}
+
+.db-wrapper .db-content .db-inner {
+  text-align: left;
+  margin: 25px 0px;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-filter: drop-shadow(15px 25.981px 20px rgba(2, 2, 2, 0.1));
+          filter: drop-shadow(15px 25.981px 20px rgba(2, 2, 2, 0.1));
+  background-color: #ffffff;
+}
+
+.db-wrapper .db-content .db-inner p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #666666;
+  font-weight: 300;
+}
+
+.db-wrapper .db-content .db-inner h2 {
+  font-size: 26px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.db-wrapper .db-content .db-inner .db-inner-img {
+  height: 92px;
+  width: auto;
+}
+
+.db-wrapper .d-flex {
+  padding: 10px 302px;
+}
+
+.db-wrapper .d-flex .btn1 {
+  margin-right: 10px;
+}
+
+.db-wrapper .d-flex .btn2 {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #00a261;
+  font-size: 20px;
+  color: #00a261;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banner.manufacturing-banner.office_banner {
+  position: relative;
+}
+
+.banner.manufacturing-banner.office_banner .banner-wrapper {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.off-prg-section .image-wrap {
+  padding-right: 67px;
+}
+
+.off-prg-section .image-wrap img {
+  width: 100%;
+  height: auto;
+}
+
+.off-prg-section .left-side {
+  line-height: 29px;
+  padding: 0px 20px;
+}
+
+.off-prg-section .left-side p {
+  font-size: 20px;
+  line-height: 45px;
+  color: #00a261;
+  font-weight: 400;
+}
+
+.off-prg-section .left-side ul {
+  display: block;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.off-prg-section .left-side ul .fas {
+  font-size: 12px;
+  letter-spacing: 8px;
+  line-height: 35px;
+  color: #00a261;
+}
+
+.off-prg-section .left-side span {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.off-prg-section .left-side .d-flex {
+  border-radius: 3px;
+  padding-top: 15px;
+}
+
+.off-prg-section .left-side .d-flex .btn1 {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.off-prg-section .left-side .d-flex .btn2 {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #00a261;
+  font-size: 20px;
+  color: #00a261;
+  font-weight: bold;
+  text-align: center;
+}
+
+.service-section {
+  background-color: #00a261;
+}
+
+.service-section .right-img img {
+  width: 100%;
+  height: auto;
+}
+
+.service-section .serv-ctnt {
+  color: #ffffff;
+  padding: 11px 73px 0px 0px;
+}
+
+.service-section .serv-ctnt p {
+  line-height: 45px;
+  font-size: 20px;
+}
+
+.service-section .serv-ctnt h3 {
+  line-height: 45px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.service-section .serv-ctnt span {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.service-section .serv-ctnt .d-flex .btn1 {
+  margin-right: 10px;
+}
+
+.service-section .serv-ctnt .d-flex .btn2 {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.achieve-section {
+  width: 100%;
+  background-color: #e8f5f0;
+  background-image: url(/assets/images/industries_served_manufacturing/back_img.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.achieve-section .db-content {
+  text-align: center;
+}
+
+.achieve-section .db-content .db-content-top {
+  padding: 20px 225px;
+}
+
+.achieve-section .db-content .db-content-top p {
+  color: #00a261;
+  line-height: 45px;
+  font-size: 20px;
+}
+
+.achieve-section .db-content .db-content-top h3 {
+  font-size: 45px;
+  line-height: 45px;
+  color: #222222;
+  font-weight: bold;
+}
+
+.achieve-section .db-content .db-content-top span {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #666666;
+  text-align: center;
+}
+
+.achieve-section .db-content .db-inner {
+  text-align: left;
+  margin: 8px 0px;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-filter: drop-shadow(15px 25.981px 20px rgba(2, 2, 2, 0.1));
+          filter: drop-shadow(15px 25.981px 20px rgba(2, 2, 2, 0.1));
+  background-color: #ffffff;
+}
+
+.achieve-section .db-content .db-inner p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #666666;
+  font-weight: 300;
+}
+
+.achieve-section .db-content .db-inner h2 {
+  font-size: 26px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.achieve-section .db-content .db-inner .db-inner-img {
+  height: 92px;
+  width: auto;
+}
+
+.achieve-section .btn-wrap.d-flex {
+  padding: 10px 302px;
+}
+
+.achieve-section .btn-wrap.d-flex .btn1 {
+  margin-right: 10px;
+}
+
+.achieve-section .btn-wrap.d-flex .btn2 {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #00a261;
+  font-size: 20px;
+  color: #00a261;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1008px) {
+  .achieve-section .btn-wrap.d-flex {
+    padding: unset;
+  }
+  .achieve-section .db-content .db-content-top {
+    padding: unset;
+  }
+}
+
+@media (max-width: 763px) {
+  .off-prg-section .image-wrap {
+    padding: unset;
+  }
+  .service-section .serv-ctnt {
+    padding: 0px 16px 14px;
+  }
+  .service-section .serv-ctnt h3 {
+    text-align: center;
+  }
+}
+
+.banner.manufacturing-banner.office_banner {
+  position: relative;
+}
+
+.banner.manufacturing-banner.office_banner .banner-wrapper {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.ret-loc-section .image-wrap {
+  padding-right: 67px;
+}
+
+.ret-loc-section .image-wrap .img-row {
+  row-gap: 25px;
+}
+
+.ret-loc-section .image-wrap img {
+  width: 100%;
+  height: auto;
+}
+
+.ret-loc-section .left-side {
+  line-height: 29px;
+  padding: 0px 20px;
+}
+
+.ret-loc-section .left-side p {
+  font-size: 20px;
+  line-height: 45px;
+  color: #00a261;
+  font-weight: 400;
+}
+
+.ret-loc-section .left-side ul {
+  display: block;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.ret-loc-section .left-side ul .fas {
+  font-size: 12px;
+  letter-spacing: 8px;
+  line-height: 35px;
+  color: #00a261;
+}
+
+.ret-loc-section .left-side span {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.ret-loc-section .left-side .d-flex {
+  border-radius: 3px;
+  padding-top: 15px;
+}
+
+.ret-loc-section .left-side .d-flex .btn1 {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.ret-loc-section .left-side .d-flex .btn2 {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #00a261;
+  font-size: 20px;
+  color: #00a261;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cust-soln-section {
+  background-color: #00a261;
+}
+
+.cust-soln-section .right-img img {
+  width: 100%;
+  height: auto;
+}
+
+.cust-soln-section .serv-ctnt {
+  color: #ffffff;
+  padding: 11px 73px 0px 0px;
+}
+
+.cust-soln-section .serv-ctnt p {
+  font-size: 20px;
+}
+
+.cust-soln-section .serv-ctnt h3 {
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.cust-soln-section .serv-ctnt span {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.cust-soln-section .serv-ctnt .d-flex .btn1 {
+  margin-right: 10px;
+}
+
+.cust-soln-section .serv-ctnt .d-flex .btn2 {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.achieve-section {
+  width: 100%;
+  background-color: #e8f5f0;
+  background-image: url(/assets/images/industries_served_retail/back_img.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.achieve-section .db-content {
+  text-align: center;
+}
+
+.achieve-section .db-content .db-content-top {
+  padding: 20px 225px;
+}
+
+.achieve-section .db-content .db-content-top p {
+  color: #00a261;
+  line-height: 45px;
+  font-size: 20px;
+}
+
+.achieve-section .db-content .db-content-top span {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #666666;
+  text-align: center;
+}
+
+.achieve-section .db-content .db-inner {
+  text-align: left;
+  margin: 8px 0px;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-filter: drop-shadow(15px 25.981px 20px rgba(2, 2, 2, 0.1));
+          filter: drop-shadow(15px 25.981px 20px rgba(2, 2, 2, 0.1));
+  background-color: #ffffff;
+}
+
+.achieve-section .db-content .db-inner p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #666666;
+  font-weight: 300;
+}
+
+.achieve-section .db-content .db-inner h2 {
+  font-size: 26px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.achieve-section .db-content .db-inner .db-inner-img {
+  height: 92px;
+  width: auto;
+}
+
+.achieve-section .btn-wrap.d-flex {
+  padding: 10px 302px;
+}
+
+.achieve-section .btn-wrap.d-flex .btn1 {
+  margin-right: 10px;
+}
+
+.achieve-section .btn-wrap.d-flex .btn2 {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #00a261;
+  font-size: 20px;
+  color: #00a261;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1008px) {
+  .achieve-section .btn-wrap.d-flex {
+    padding: unset;
+  }
+  .achieve-section .db-content .db-content-top {
+    padding: unset;
+  }
+}
+
+@media (max-width: 763px) {
+  .off-prg-section .image-wrap {
+    padding: unset;
+  }
+  .cust-soln-section .serv-ctnt {
+    padding: 0px 12px 10px 12px;
+  }
+}
+
+.banner.manufacturing-banner.office_banner {
+  position: relative;
+}
+
+.banner.manufacturing-banner.office_banner .banner-wrapper {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.schools-section .image-wrap {
+  padding-right: 67px;
+}
+
+.schools-section .image-wrap .img-row {
+  row-gap: 25px;
+}
+
+.schools-section .image-wrap img {
+  width: 100%;
+  height: auto;
+}
+
+.schools-section .left-side {
+  padding: 0px 20px;
+}
+
+.schools-section .left-side ul {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  color: #666666;
+  display: block;
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 0px;
+}
+
+.schools-section .left-side ul .fas {
+  font-size: 12px;
+  letter-spacing: 8px;
+  line-height: 35px;
+  color: #00a261;
+}
+
+.schools-section .left-side p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #666666;
+}
+
+.schools-section .left-side h6 {
+  font-size: 20px;
+  line-height: 45px;
+  color: #00a261;
+  font-weight: 400;
+}
+
+.schools-section .left-side .d-flex {
+  border-radius: 3px;
+  padding-top: 15px;
+}
+
+.schools-section .left-side .d-flex .btn1 {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.schools-section .left-side .d-flex .btn2 {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #00a261;
+  font-size: 20px;
+  color: #00a261;
+  font-weight: bold;
+  text-align: center;
+}
+
+.meet-need-section {
+  background-color: #00a261;
+}
+
+.meet-need-section .right-img img {
+  width: 100%;
+  height: auto;
+}
+
+.meet-need-section .serv-ctnt {
+  color: #ffffff;
+  padding: 11px 73px 0px 0px;
+}
+
+.meet-need-section .serv-ctnt p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+}
+
+.meet-need-section .serv-ctnt h3 {
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.meet-need-section .serv-ctnt .d-flex .btn1 {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.meet-need-section .serv-ctnt .d-flex .btn2 {
+  font-size: 20px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.abc-rec-section {
+  width: 100%;
+  background-color: #e8f5f0;
+  background-image: url(/assets/images/industries_served_schools/back_img.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.abc-rec-section .db-content {
+  text-align: center;
+}
+
+.abc-rec-section .db-content .db-content-top {
+  padding: 20px 225px;
+}
+
+.abc-rec-section .db-content .db-content-top p {
+  color: #00a261;
+  line-height: 45px;
+  font-size: 20px;
+}
+
+.abc-rec-section .db-content .db-content-top span {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #666666;
+  text-align: center;
+}
+
+.abc-rec-section .db-content .db-inner {
+  min-height: 314px;
+  text-align: left;
+  margin: 8px 0px;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-filter: drop-shadow(15px 25.981px 20px rgba(2, 2, 2, 0.1));
+          filter: drop-shadow(15px 25.981px 20px rgba(2, 2, 2, 0.1));
+  background-color: #ffffff;
+}
+
+.abc-rec-section .db-content .db-inner p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #666666;
+  font-weight: 300;
+}
+
+.abc-rec-section .db-content .db-inner h2 {
+  font-size: 26px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.abc-rec-section .db-content .db-inner .db-inner-img {
+  height: 92px;
+  width: auto;
+}
+
+.abc-rec-section .btn-wrap.d-flex {
+  padding: 10px 302px;
+}
+
+.abc-rec-section .btn-wrap.d-flex .btn1 {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.abc-rec-section .btn-wrap.d-flex .btn2 {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #00a261;
+  font-size: 20px;
+  color: #00a261;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1008px) {
+  .abc-rec-section .btn-wrap.d-flex {
+    padding: unset;
+  }
+  .abc-rec-section .db-content .db-content-top {
+    padding: unset;
+  }
+}
+
+@media (max-width: 763px) {
+  .schools-section .image-wrap {
+    padding: unset;
+  }
+  .meet-need-section .serv-ctnt {
+    padding: 0px 16px 14px;
+  }
+  .meet-need-section .serv-ctnt h3 {
+    text-align: center;
+  }
+}
+
+.mix-it-section .image-wrap {
+  padding-right: 67px;
+}
+
+.mix-it-section .image-wrap .img-row {
+  row-gap: 25px;
+}
+
+.mix-it-section .image-wrap img {
+  width: 100%;
+  height: auto;
+}
+
+.mix-it-section .left-side {
+  padding: 0px 20px;
+}
+
+.mix-it-section .left-side ul {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  color: #666666;
+  display: block;
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 0px;
+}
+
+.mix-it-section .left-side ul .fas {
+  font-size: 12px;
+  letter-spacing: 8px;
+  line-height: 35px;
+  color: #00a261;
+}
+
+.mix-it-section .left-side p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #666666;
+}
+
+.mix-it-section .left-side h6 {
+  font-size: 20px;
+  line-height: 45px;
+  color: #00a261;
+  font-weight: 400;
+}
+
+.mix-it-section .left-side .d-flex {
+  border-radius: 3px;
+  padding-top: 15px;
+}
+
+.mix-it-section .left-side .d-flex .btn1 {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.mix-it-section .left-side .d-flex .btn2 {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #00a261;
+  font-size: 20px;
+  color: #00a261;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mixed-cover img {
+  width: 100%;
+}
+
+.mixed-cover .why-recycling-section {
+  background-color: #e8f5f0;
+}
+
+.mixed-cover .why-recycling-section .right-img img {
+  width: 100%;
+  height: auto;
+}
+
+.mixed-cover .why-recycling-section .serv-ctnt {
+  color: #222222;
+  padding: 11px 73px 0px 0px;
+}
+
+.mixed-cover .why-recycling-section .serv-ctnt p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+}
+
+.mixed-cover .why-recycling-section .serv-ctnt ul {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  color: #666666;
+  display: block;
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 0px;
+}
+
+.mixed-cover .why-recycling-section .serv-ctnt ul .fas {
+  font-size: 12px;
+  letter-spacing: 8px;
+  line-height: 35px;
+  color: #00a261;
+}
+
+.mixed-cover .why-recycling-section .serv-ctnt .d-flex .btn1 {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.mixed-cover .why-recycling-section .serv-ctnt .d-flex .btn2 {
+  font-size: 20px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.why-choose-section {
+  background-image: url("/assets/images/mixed_container_recycling/why_back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.why-choose-section .why-inner {
+  row-gap: 20px;
+}
+
+.why-choose-section .why-inner .left-sub-img {
+  margin-left: -17px;
+}
+
+.why-choose-section .why-inner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.why-choose-section .why-inner .why1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.why-choose-section .right-side h3 {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.why-choose-section .right-side p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.why-choose-section .right-side .d-flex .btn1 {
+  margin-right: 10px;
+}
+
+.why-choose-section .right-side .d-flex .btn2 {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.mixed-container-section {
+  padding: 55px 0px;
+}
+
+.mixed-container-section .db-content {
+  text-align: center;
+}
+
+.mixed-container-section .db-content .db-content-top {
+  padding: 20px 225px;
+}
+
+.mixed-container-section .db-content .db-content-top p {
+  color: #00a261;
+  line-height: 45px;
+  font-size: 20px;
+}
+
+.mixed-container-section .db-content .db-inner {
+  text-align: center;
+  margin: 8px 0px;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-filter: drop-shadow(15px 25.981px 20px rgba(2, 2, 2, 0.1));
+          filter: drop-shadow(15px 25.981px 20px rgba(2, 2, 2, 0.1));
+}
+
+.mixed-container-section .db-content .db-inner .img-section {
+  background-color: #ffffff;
+}
+
+.mixed-container-section .db-content .db-inner .img-section img {
+  max-height: 240px;
+  padding-bottom: 35px;
+}
+
+.mixed-container-section .db-content .db-inner .ins-ctnt {
+  background-color: #009b5d;
+}
+
+.mixed-container-section .db-content .db-inner .ins-ctnt p {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.mixed-container-section .db-content .db-inner .ins-ctnt h2 {
+  font-size: 28px;
+  line-height: 45px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "V AG Rounded Std";
+  text-align: center;
+}
+
+.mix-download-section {
+  padding: 90px 0px;
+  background-image: url("/assets/images/mixed_container_recycling/download_label_back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.mix-download-section .download-upper h6 {
+  font-size: 20px;
+  line-height: 45px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "V AG Rounded Std";
+}
+
+.mix-download-section .download-upper h3 {
+  font-size: 45px;
+  line-height: 45px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "V AG Rounded Std";
+}
+
+.mix-download-section .download-upper p {
+  font-size: 24px;
+  line-height: 45px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "V AG Rounded Std";
+}
+
+.mix-download-section .download-image {
+  background-color: white;
+  padding: 30px;
+  margin: 17px 135px 10px 150px;
+}
+
+.mix-download-section .download-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.facts-mixed-section .left-side {
+  padding-right: 75px;
+}
+
+.facts-mixed-section .right-side h3 {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: bold;
+  color: #00a261;
+}
+
+.facts-mixed-section .right-side p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.facts-mixed-section h6 {
+  font-size: 20px;
+  line-height: 45px;
+  color: #00a261;
+  font-weight: 300;
+  font-family: "V AG Rounded Std";
+}
+
+.facts-mixed-section ul {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  color: #666666;
+  display: block;
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 0px;
+}
+
+.facts-mixed-section ul .fas {
+  font-size: 12px;
+  letter-spacing: 8px;
+  line-height: 35px;
+  color: #00a261;
+}
+
+.get-quote-section {
+  background-color: #00a261;
+  padding: 40px 0;
+}
+
+.get-quote-section .main-quote {
+  font-size: 40px;
+  line-height: 45px;
+  color: #fefefe;
+  font-weight: bold;
+  font-family: "V AG Rounded Std";
+}
+
+.get-quote-section .btn-wrap {
+  text-align: right;
+}
+
+.get-quote-section .btn-wrap .main-quote-btn {
+  border-radius: 3px;
+  background-color: #fec84c;
+  color: black;
+  font-family: "V AG Rounded Std";
+}
+
+.get-quote-section .btn-wrap .req-quote-btn {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #ffffff;
+  color: white;
+  font-family: "V AG Rounded Std";
+}
+
+@media only screen and (max-width: 1410px) {
+  .why-choose-section .why-inner .left-sub-img {
+    margin-left: unset;
+  }
+}
+
+@media only screen and (max-width: 1008px) {
+  .mixed-container-section .db-content .db-content-top {
+    padding: unset;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .why-choose-section .why-inner {
+    row-gap: 0px;
+  }
+  .mixed-cover .why-recycling-section .serv-ctnt {
+    padding: 0px 0px 0px 20px;
+  }
+}
+
+.get-charged-section .image-wrap {
+  padding-right: 67px;
+}
+
+.get-charged-section .image-wrap img {
+  width: 100%;
+  height: auto;
+}
+
+.get-charged-section .left-side {
+  padding: 0px 20px;
+}
+
+.get-charged-section .left-side ul {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  color: #666666;
+  display: block;
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 0px;
+}
+
+.get-charged-section .left-side ul .fas {
+  font-size: 18px;
+  letter-spacing: 8px;
+  line-height: 35px;
+  color: #00a261;
+}
+
+.get-charged-section .left-side p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #666666;
+}
+
+.get-charged-section .left-side h6 {
+  font-size: 20px;
+  line-height: 45px;
+  color: #00a261;
+  font-weight: 400;
+}
+
+.get-charged-section .left-side .d-flex {
+  border-radius: 3px;
+  padding-top: 15px;
+}
+
+.get-charged-section .left-side .d-flex .btn1 {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.get-charged-section .left-side .d-flex .btn2 {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #00a261;
+  font-size: 20px;
+  color: #00a261;
+  font-weight: bold;
+  text-align: center;
+}
+
+.why-battery-cover img {
+  width: 100%;
+}
+
+.why-battery-cover .why-battery-section {
+  background-color: #e8f5f0;
+}
+
+.why-battery-cover .why-battery-section .right-img img {
+  width: 100%;
+  height: auto;
+}
+
+.why-battery-cover .why-battery-section .serv-ctnt {
+  color: #222222;
+  padding: 11px 73px 0px 0px;
+}
+
+.why-battery-cover .why-battery-section .serv-ctnt p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+}
+
+.why-battery-cover .why-battery-section .serv-ctnt ul {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  color: #666666;
+  display: block;
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 0px;
+}
+
+.why-battery-cover .why-battery-section .serv-ctnt ul .fas {
+  font-size: 12px;
+  letter-spacing: 8px;
+  line-height: 35px;
+  color: #00a261;
+}
+
+.why-battery-cover .why-battery-section .serv-ctnt .d-flex .btn1 {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.why-battery-cover .why-battery-section .serv-ctnt .d-flex .btn2 {
+  font-size: 20px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.why-choose-btry-section .db-content {
+  text-align: center;
+}
+
+.why-choose-btry-section .db-content .can-btn {
+  max-width: 470px;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.why-choose-btry-section .db-content .can-btn .btn2 {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #00a261;
+  font-size: 20px;
+  color: #00a261;
+  font-weight: bold;
+  text-align: center;
+}
+
+.why-choose-btry-section .db-content .can-btn button {
+  padding: 10px 0px;
+}
+
+.why-choose-btry-section .db-content .db-content-top {
+  padding: 20px 295px;
+}
+
+.why-choose-btry-section .db-content .db-content-top p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #666666;
+}
+
+.why-choose-btry-section .db-content .db-inner {
+  max-width: 390px;
+  text-align: center;
+  margin: 8px 0px;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-filter: drop-shadow(15px 25.981px 20px rgba(2, 2, 2, 0.1));
+          filter: drop-shadow(15px 25.981px 20px rgba(2, 2, 2, 0.1));
+}
+
+.why-choose-btry-section .db-content .db-inner .img-section {
+  background-color: #ffffff;
+}
+
+.why-choose-btry-section .db-content .db-inner .img-section img {
+  max-height: 240px;
+  padding-bottom: 35px;
+}
+
+.why-choose-btry-section .db-content .db-inner .ins-ctnt {
+  background-color: #009b5d;
+}
+
+.why-choose-btry-section .db-content .db-inner .ins-ctnt p {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.why-choose-btry-section .db-content .db-inner .ins-ctnt h2 {
+  font-size: 28px;
+  line-height: 45px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "V AG Rounded Std";
+  text-align: center;
+}
+
+.download-recycling-section {
+  padding: 90px 0px;
+  background-image: url("/assets/images/service_battery_recycling/download_label_back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.download-recycling-section .download-upper h6 {
+  font-size: 20px;
+  line-height: 45px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "V AG Rounded Std";
+}
+
+.download-recycling-section .download-upper h3 {
+  font-size: 45px;
+  line-height: 45px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "V AG Rounded Std";
+}
+
+.download-recycling-section .download-upper p {
+  font-size: 24px;
+  line-height: 45px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "V AG Rounded Std";
+}
+
+.facts-battery-section .left-side {
+  padding-right: 75px;
+}
+
+.facts-battery-section .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.facts-battery-section .right-side h6 {
+  font-size: 20px;
+  line-height: 45px;
+  color: #00a261;
+  font-weight: 300;
+  font-family: "V AG Rounded Std";
+}
+
+.facts-battery-section .right-side ul {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  color: #666666;
+  display: block;
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 0px;
+}
+
+.facts-battery-section .right-side ul .fas {
+  font-size: 12px;
+  letter-spacing: 8px;
+  line-height: 35px;
+  color: #00a261;
+}
+
+.battery-quote-section {
+  background-color: #00a261;
+  padding: 40px 0;
+}
+
+.battery-quote-section .main-quote {
+  font-size: 40px;
+  line-height: 45px;
+  color: #fefefe;
+  font-weight: bold;
+  font-family: "V AG Rounded Std";
+}
+
+.battery-quote-section .btn-wrap {
+  text-align: right;
+}
+
+.battery-quote-section .btn-wrap .main-quote-btn {
+  border-radius: 3px;
+  background-color: #fec84c;
+  color: black;
+  font-family: "V AG Rounded Std";
+}
+
+.battery-quote-section .btn-wrap .req-quote-btn {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #ffffff;
+  color: white;
+  font-family: "V AG Rounded Std";
+}
+
+@media only screen and (max-width: 1008px) {
+  .why-choose-btry-section .db-content .db-content-top {
+    padding: unset;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .why-battery-cover .why-battery-section .serv-ctnt {
+    padding: 0px 0px 0px 20px;
+  }
+  .download-recycling-section .download-image img {
+    width: 100%;
+  }
+}
+
+.hospitality-section .image-wrap {
+  padding-right: 67px;
+}
+
+.hospitality-section .image-wrap .img-row {
+  row-gap: 25px;
+}
+
+.hospitality-section .image-wrap img {
+  width: 100%;
+  height: auto;
+}
+
+.hospitality-section .left-side {
+  padding: 0px 20px;
+}
+
+.hospitality-section .left-side ul {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  color: #666666;
+  display: block;
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 0px;
+}
+
+.hospitality-section .left-side ul .fas {
+  font-size: 12px;
+  letter-spacing: 8px;
+  line-height: 35px;
+  color: #00a261;
+}
+
+.hospitality-section .left-side p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #666666;
+}
+
+.hospitality-section .left-side h6 {
+  font-size: 20px;
+  line-height: 45px;
+  color: #00a261;
+  font-weight: 400;
+}
+
+.hospitality-section .left-side .d-flex .btn1 {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.hospitality-section .left-side .d-flex .btn2 {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #00a261;
+  font-size: 20px;
+  color: #00a261;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ring-bell-section {
+  background-color: #00a261;
+}
+
+.ring-bell-section .right-img img {
+  width: 100%;
+  height: auto;
+}
+
+.ring-bell-section .serv-ctnt {
+  color: #ffffff;
+  padding: 11px 73px 0px 0px;
+}
+
+.ring-bell-section .serv-ctnt p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+}
+
+.ring-bell-section .serv-ctnt h3 {
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.ring-bell-section .serv-ctnt .d-flex .btn1 {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.ring-bell-section .serv-ctnt .d-flex .btn2 {
+  font-size: 20px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.with-ease-section {
+  width: 100%;
+  background-color: #e8f5f0;
+  background-image: url(/assets/images/industries_served_hospitality/back_img.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.with-ease-section .db-content {
+  text-align: center;
+}
+
+.with-ease-section .db-content .db-content-top {
+  padding: 20px 225px;
+}
+
+.with-ease-section .db-content .db-content-top p {
+  color: #00a261;
+  line-height: 45px;
+  font-size: 20px;
+}
+
+.with-ease-section .db-content .db-content-top span {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #666666;
+  text-align: center;
+}
+
+.with-ease-section .db-content .db-inner {
+  min-height: 361px;
+  text-align: left;
+  margin: 10px 0px;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-filter: drop-shadow(15px 25.981px 20px rgba(2, 2, 2, 0.1));
+          filter: drop-shadow(15px 25.981px 20px rgba(2, 2, 2, 0.1));
+  background-color: #ffffff;
+}
+
+.with-ease-section .db-content .db-inner p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #666666;
+  font-weight: 300;
+}
+
+.with-ease-section .db-content .db-inner h2 {
+  font-size: 26px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.with-ease-section .db-content .db-inner .db-inner-img {
+  height: 92px;
+  width: auto;
+}
+
+.with-ease-section .btn-wrap.d-flex {
+  padding: 20px 302px;
+}
+
+.with-ease-section .btn-wrap.d-flex .btn1 {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.with-ease-section .btn-wrap.d-flex .btn2 {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #00a261;
+  font-size: 20px;
+  color: #00a261;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1008px) {
+  .with-ease-section .btn-wrap.d-flex {
+    padding: unset;
+  }
+  .with-ease-section .db-content .db-content-top {
+    padding: unset;
+  }
+}
+
+@media (max-width: 763px) {
+  .ring-bell-section .serv-ctnt {
+    padding: 0px 16px 14px;
+  }
+  .ring-bell-section .serv-ctnt h6 {
+    text-align: center;
+  }
+  .ring-bell-section .serv-ctnt h3 {
+    text-align: center;
+  }
+}
+
+.homeOffice-section .image-wrap {
+  padding-right: 67px;
+}
+
+.homeOffice-section .image-wrap .img-row {
+  row-gap: 25px;
+}
+
+.homeOffice-section .image-wrap img {
+  width: 100%;
+  height: auto;
+}
+
+.homeOffice-section .left-side {
+  padding: 0px 20px;
+}
+
+.homeOffice-section .left-side ul {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  color: #666666;
+  display: block;
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 0px;
+}
+
+.homeOffice-section .left-side ul .fas {
+  font-size: 12px;
+  letter-spacing: 8px;
+  line-height: 35px;
+  color: #00a261;
+}
+
+.homeOffice-section .left-side p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #666666;
+}
+
+.homeOffice-section .left-side h6 {
+  font-size: 20px;
+  line-height: 45px;
+  color: #00a261;
+  font-weight: 400;
+}
+
+.homeOffice-section .left-side .d-flex .btn1 {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.homeOffice-section .left-side .d-flex .btn2 {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #00a261;
+  font-size: 20px;
+  color: #00a261;
+  font-weight: bold;
+  text-align: center;
+}
+
+.HomeOffice-concierge-section {
+  background-color: #00a261;
+}
+
+.HomeOffice-concierge-section .right-img img {
+  width: 100%;
+  height: auto;
+}
+
+.HomeOffice-concierge-section .serv-ctnt {
+  color: #ffffff;
+  padding: 11px 73px 0px 0px;
+}
+
+.HomeOffice-concierge-section .serv-ctnt p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+}
+
+.HomeOffice-concierge-section .serv-ctnt h3 {
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.HomeOffice-concierge-section .serv-ctnt .d-flex .btn1 {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.HomeOffice-concierge-section .serv-ctnt .d-flex .btn2 {
+  font-size: 20px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.recycling-in-pjs-section {
+  width: 100%;
+  background-color: #e8f5f0;
+  background-image: url(/assets/images/industries_served_hospitality/back_img.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.recycling-in-pjs-section .db-content {
+  text-align: center;
+}
+
+.recycling-in-pjs-section .db-content .db-content-top {
+  padding: 20px 225px;
+}
+
+.recycling-in-pjs-section .db-content .db-content-top p {
+  color: #00a261;
+  line-height: 45px;
+  font-size: 20px;
+}
+
+.recycling-in-pjs-section .db-content .db-content-top span {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #666666;
+  text-align: center;
+}
+
+.recycling-in-pjs-section .db-content .db-inner {
+  min-height: 314px;
+  text-align: left;
+  margin: 10px 0px;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-filter: drop-shadow(15px 25.981px 20px rgba(2, 2, 2, 0.1));
+          filter: drop-shadow(15px 25.981px 20px rgba(2, 2, 2, 0.1));
+  background-color: #ffffff;
+}
+
+.recycling-in-pjs-section .db-content .db-inner p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #666666;
+  font-weight: 300;
+}
+
+.recycling-in-pjs-section .db-content .db-inner h2 {
+  font-size: 26px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.recycling-in-pjs-section .db-content .db-inner .db-inner-img {
+  height: 92px;
+  width: auto;
+}
+
+.recycling-in-pjs-section .btn-wrap.d-flex {
+  padding: 20px 302px;
+}
+
+.recycling-in-pjs-section .btn-wrap.d-flex .btn1 {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.recycling-in-pjs-section .btn-wrap.d-flex .btn2 {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #00a261;
+  font-size: 20px;
+  color: #00a261;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1008px) {
+  .recycling-in-pjs-section .btn-wrap.d-flex {
+    padding: unset;
+  }
+  .recycling-in-pjs-section .db-content .db-content-top {
+    padding: unset;
+  }
+}
+
+@media (max-width: 763px) {
+  .HomeOffice-concierge-section .serv-ctnt {
+    padding: 0px 16px 14px;
+  }
+  .HomeOffice-concierge-section .serv-ctnt h6 {
+    text-align: center;
+  }
+  .HomeOffice-concierge-section .serv-ctnt h3 {
+    text-align: center;
+  }
+}
+
+.great-pep-section .image-wrap {
+  padding-right: 67px;
+}
+
+.great-pep-section .image-wrap .img-row {
+  row-gap: 25px;
+}
+
+.great-pep-section .image-wrap img {
+  width: 100%;
+  height: auto;
+}
+
+.great-pep-section .left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.great-pep-section .left-side p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #666666;
+}
+
+.carrer-wantYou-section {
+  background-color: #00a261;
+  color: #ffffff;
+}
+
+.carrer-wantYou-section .left-side {
+  padding-right: 50px;
+}
+
+.carrer-wantYou-section ul {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  display: block;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.carrer-wantYou-section ul .fas {
+  font-size: 14px;
+  letter-spacing: 6px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.carrer-wantYou-section p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+}
+
+.carrer-wantYou-section h3 {
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.carrer-wantYou-section span {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.carrer-wantYou-section .d-flex .btn1 {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.carrer-wantYou-section .d-flex .btn2 {
+  font-size: 20px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.mainCareer-recylingSorters-section .image-wrap {
+  padding-right: 67px;
+}
+
+.mainCareer-recylingSorters-section .image-wrap .img-row {
+  row-gap: 25px;
+}
+
+.mainCareer-recylingSorters-section .image-wrap img {
+  width: 100%;
+  height: auto;
+}
+
+.mainCareer-recylingSorters-section .left-side {
+  line-height: 29px;
+}
+
+.mainCareer-recylingSorters-section .left-side h6 {
+  font-size: 20px;
+  line-height: 45px;
+  color: #00a261;
+  font-weight: 300;
+  font-family: "V AG Rounded Std";
+}
+
+.mainCareer-recylingSorters-section .left-side p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #666666;
+  font-family: "V AG Rounded Std";
+}
+
+.mainCareer-recylingSorters-section .left-side span {
+  font-size: 22px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #333333;
+  font-weight: bold;
+  font-family: "V AG Rounded Std";
+}
+
+.mainCareer-recylingSorters-section .left-side ul {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  display: block;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.mainCareer-recylingSorters-section .left-side ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainCareer-recylingSorters-section .left-side ul .fas {
+  font-size: 12px;
+  letter-spacing: 8px;
+  line-height: 35px;
+  color: #00a261;
+}
+
+.mainCareer-recylingSorters-section .left-side .d-flex {
+  border-radius: 3px;
+  padding-top: 15px;
+}
+
+.mainCareer-recylingSorters-section .left-side .d-flex .btn1 {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.mainCareer-recylingSorters-section .left-side .d-flex .btn2 {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #00a261;
+  font-size: 20px;
+  color: #00a261;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mainCareer-everyone-has-voice-section {
+  width: 100%;
+  background-color: #e8f5f0;
+  background-image: url(/assets/images/main_career/back.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.mainCareer-everyone-has-voice-section .image-wrap {
+  padding-right: 67px;
+}
+
+.mainCareer-everyone-has-voice-section .image-wrap .img-row {
+  row-gap: 25px;
+}
+
+.mainCareer-everyone-has-voice-section .image-wrap img {
+  width: 100%;
+  height: auto;
+}
+
+.mainCareer-everyone-has-voice-section .left-side {
+  line-height: 29px;
+  padding-right: 55px;
+}
+
+.mainCareer-everyone-has-voice-section .left-side h6 {
+  font-size: 20px;
+  line-height: 45px;
+  color: #00a261;
+  font-weight: 300;
+  font-family: "V AG Rounded Std";
+}
+
+.mainCareer-everyone-has-voice-section .left-side p {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #666666;
+  font-family: "V AG Rounded Std";
+}
+
+.mainCareer-everyone-has-voice-section .left-side ul {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  display: block;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.mainCareer-everyone-has-voice-section .left-side ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainCareer-everyone-has-voice-section .left-side ul .fas {
+  font-size: 12px;
+  letter-spacing: 8px;
+  line-height: 35px;
+  color: #00a261;
+}
+
+.mainCareer-everyone-has-voice-section .left-side .d-flex {
+  border-radius: 3px;
+  padding-top: 15px;
+}
+
+.mainCareer-everyone-has-voice-section .left-side .d-flex .btn1 {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.mainCareer-everyone-has-voice-section .left-side .d-flex .btn2 {
+  border-radius: 3px;
+  background-color: rgba(0, 110, 81, 0);
+  border: 2px solid #00a261;
+  font-size: 20px;
+  color: #00a261;
+  font-weight: bold;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
