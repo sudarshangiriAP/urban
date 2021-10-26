@@ -206,21 +206,17 @@
 }
 
 @media only screen and (max-width: 1008px) {
-  .abc-rec-section .btn-wrap.d-flex {
+  .industrial-drivingFactor-section .btn-wrap.d-flex {
     padding: unset;
   }
 
-  .abc-rec-section .db-content .db-content-top {
+  .industrial-drivingFactor-section .db-content .db-content-top {
     padding: unset;
   }
 }
 
 @media (max-width: 763px) {
-  .schools-section .image-wrap {
-    padding: unset;
-  }
-
-  .meet-need-section .serv-ctnt {
+  .industrial-serv-need-section .serv-ctnt {
     padding: 0px 16px 14px;
 
     h3 {
