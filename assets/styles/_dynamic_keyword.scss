@@ -1,0 +1,245 @@
+.dynamic-word-test-section {
+  background-color: #f7fffc;
+  //   padding: 55px 0px;
+
+  .db-content {
+    .db-content-top {
+      h6 {
+        color: $primary-green;
+        line-height: 45px;
+        font-size: 20px;
+      }
+    }
+
+    .back-line {
+      position: relative;
+      justify-content: space-between;
+      z-index: 2;
+
+      .line {
+        position: absolute;
+        border: 1px dashed #00000014;
+        top: 54%;
+        bottom: 50%;
+        z-index: -1;
+      }
+    }
+
+    .first {
+      &::after {
+        position: absolute;
+        content: "";
+        bottom: 158px;
+        left: 324px;
+        border: 5px solid #00a261;
+        border-radius: 50%;
+      }
+    }
+    .second {
+      &::before {
+        position: absolute;
+        content: "";
+        bottom: 158px;
+        left: -7px;
+        border: 5px solid #00a261;
+        border-radius: 50%;
+      }
+
+      &::after {
+        position: absolute;
+        content: "";
+        bottom: 158px;
+        left: 324px;
+        border: 5px solid #00a261;
+        border-radius: 50%;
+      }
+    }
+
+    .third {
+      &::before {
+        position: absolute;
+        content: "";
+        bottom: 158px;
+        left: -7px;
+        border: 5px solid #00a261;
+        border-radius: 50%;
+      }
+    }
+
+    .db-inner {
+      position: relative;
+      text-align: center;
+      border-radius: 10px;
+      background-color: #ffffff;
+      border: 1px solid #ececec;
+      padding: unset;
+
+      .img-section {
+        background-color: $primary-white;
+
+        img {
+          max-height: 240px;
+        }
+      }
+      .ins-ctnt {
+        padding: 27px 25px 0px 25px;
+
+        p {
+          font-size: 14px;
+          line-height: 24px;
+          color: #666666;
+          font-weight: 300;
+          font-family: "Poppins";
+        }
+
+        h2 {
+          font-size: 28px;
+          line-height: 24px;
+          color: #00a261;
+          font-weight: bold;
+          font-family: "V AG Rounded Std";
+        }
+      }
+    }
+  }
+}
+
+.dynamicWord-who-we-section {
+  .left-side {
+    padding-right: 75px;
+  }
+  .right-side {
+    h6 {
+      font-size: 20px;
+      line-height: 45px;
+      color: #00a261;
+      font-weight: 300;
+      font-family: "V AG Rounded Std";
+    }
+
+    p {
+      font-size: 20px;
+      letter-spacing: 0px;
+      line-height: 32px;
+      color: #666666;
+      font-family: "V AG Rounded Std";
+    }
+  }
+  h3 {
+    font-size: 45px;
+    line-height: 45px;
+    color: #222222;
+    font-weight: bold;
+    font-family: "V AG Rounded Std";
+  }
+
+  .d-flex {
+    .btn1 {
+      margin-right: 10px;
+      font-size: 20px;
+    }
+
+    .btn2 {
+      // width: 290px;
+      border-radius: 3px;
+      background-color: rgba(0, 110, 81, 0);
+      border: 2px solid $primary-green;
+      font-size: 20px;
+      color: $primary-green;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+}
+
+.dynamicWord-ourReview-section {
+  width: 100%;
+  background-color: #e8f5f0;
+  background-image: url(/assets/images/main_career/back.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
+  background-position-y: bottom;
+
+  .db-content {
+    text-align: center;
+
+    .db-content-top {
+      h6 {
+        font-size: 20px;
+        line-height: 45px;
+        color: #00a261;
+        font-weight: 300;
+        font-family: "V AG Rounded Std";
+        text-align: center;
+      }
+    }
+
+    .db-inner {
+      text-align: left;
+      margin: 8px 0px;
+      padding: 20px;
+      border-radius: 10px;
+      filter: drop-shadow(15px 25.981px 20px rgba(2, 2, 2, 0.1));
+      background-color: $primary-white;
+
+      .fa {
+        padding: 20px 0px;
+        color: #006e51;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 25px;
+        color: #666666;
+        font-weight: 300;
+      }
+
+      h2 {
+        font-size: 26px;
+        color: #333333;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.dynamic-word-get-quote-section {
+  background-color: #00a261;
+  padding: 40px 0;
+  .main-quote {
+    font-size: 40px;
+    line-height: 45px;
+    color: #fefefe;
+    font-weight: bold;
+    font-family: "V AG Rounded Std";
+  }
+  .btn-wrap {
+    text-align: right;
+    .main-quote-btn {
+      border-radius: 3px;
+      background-color: #fec84c;
+      color: black;
+      font-family: "V AG Rounded Std";
+    }
+    .req-quote-btn {
+      border-radius: 3px;
+      background-color: rgba(0, 110, 81, 0);
+      border: 2px solid #ffffff;
+      color: white;
+      font-family: "V AG Rounded Std";
+    }
+  }
+}
+
+@media only screen and (max-width: 1402px) {
+  .dynamic-word-test-section .db-content .first::after,.second::before,.second::after,.third::before {
+   display: none;
+  }
+}
+
+@media only screen and (max-width: 755px) {
+  .dynamic-word-get-quote-section .btn-wrap {
+    text-align: center;
+  }
+}
