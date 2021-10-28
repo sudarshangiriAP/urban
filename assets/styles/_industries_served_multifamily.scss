@@ -1,0 +1,224 @@
+.multiFam-section {
+  .image-wrap {
+    padding-right: 67px;
+
+    .img-row {
+      row-gap: 25px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .left-side {
+    // line-height: $line-height;
+    padding: 0px 20px;
+
+    ul {
+      font-size: 20px;
+      letter-spacing: 0px;
+      line-height: 35px;
+      color: #666666;
+      display: block;
+      list-style: none;
+      margin-top: 10px;
+      padding-left: 0px;
+
+      // Font Awesome icon
+      .fas {
+        font-size: 12px;
+        letter-spacing: 8px;
+        line-height: 35px;
+        color: $primary-green;
+      }
+    }
+    p {
+      font-size: 20px;
+      letter-spacing: 0px;
+      line-height: 32px;
+      color: #666666;
+    }
+
+    h6 {
+      font-size: 20px;
+      line-height: 45px;
+      color: #00a261;
+      font-weight: 400;
+    }
+    .d-flex {
+      border-radius: 3px;
+      padding-top: 15px;
+
+      .btn1 {
+        margin-right: 10px;
+        font-size: 20px;
+      }
+
+      .btn2 {
+        // width: 290px;
+        border-radius: 3px;
+        background-color: rgba(0, 110, 81, 0);
+        border: 2px solid $primary-green;
+        font-size: 20px;
+        color: $primary-green;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.multiFam-concierge-section {
+  background-color: $primary-green;
+
+  .right-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .serv-ctnt {
+    color: $primary-white;
+    padding: 11px 73px 0px 0px;
+
+    h6 {
+      font-size: 20px;
+      line-height: 45px;
+      color: #00a261;
+      font-weight: 400;
+    }
+
+    p {
+      font-size: 20px;
+      letter-spacing: 0px;
+      line-height: 32px;
+    }
+
+    h3 {
+      color: $primary-white;
+      padding-bottom: 10px;
+    }
+
+    .d-flex {
+      .btn1 {
+        font-size: 20px;
+        margin-right: 10px;
+      }
+      .btn2 {
+        font-size: 20px;
+        color: $primary-white;
+        border: 2px solid $primary-white;
+      }
+    }
+  }
+}
+
+.multifam-makeEasy-section {
+  width: 100%;
+  background-color: #e8f5f0;
+  background-image: url(/assets/images/industries_served_multifamily/back_img.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+
+  .db-content {
+    text-align: center;
+
+    .db-content-top {
+      padding: 20px 225px;
+
+      h6 {
+        font-size: 20px;
+        line-height: 45px;
+        color: #00a261;
+        font-weight: 400;
+      }
+
+      p {
+        color: $primary-green;
+        line-height: 45px;
+        font-size: 20px;
+      }
+
+      span {
+        font-size: 20px;
+        letter-spacing: 0px;
+        line-height: 32px;
+        color: #666666;
+        text-align: center;
+      }
+    }
+
+    .db-inner {
+      min-height: 336px;
+      text-align: left;
+      margin: 8px 0px;
+      padding: 20px;
+      border-radius: 10px;
+      filter: drop-shadow(15px 25.981px 20px rgba(2, 2, 2, 0.1));
+      background-color: $primary-white;
+
+      p {
+        font-size: 16px;
+        line-height: 25px;
+        color: #666666;
+        font-weight: 300;
+      }
+
+      h2 {
+        font-size: 26px;
+        color: #333333;
+        font-weight: bold;
+      }
+
+      .db-inner-img {
+        height: 92px;
+        width: auto;
+      }
+    }
+  }
+
+  .btn-wrap.d-flex {
+    padding: 10px 302px;
+
+    .btn1 {
+      font-size: 22px;
+      margin-right: 10px;
+    }
+
+    .btn2 {
+      border-radius: 3px;
+      background-color: rgba(0, 110, 81, 0);
+      border: 2px solid $primary-green;
+      font-size: 20px;
+      color: $primary-green;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 1008px) {
+  .multifam-makeEasy-section .btn-wrap.d-flex  {
+    padding: unset;
+  }
+
+  .multifam-makeEasy-section .db-content .db-content-top {
+    padding: unset;
+  }
+}
+
+@media (max-width: 763px) {
+  .schools-section .image-wrap {
+    padding: unset;
+  }
+
+  .multiFam-concierge-section .serv-ctnt  {
+    padding: 0px 16px 14px;
+
+    h3 {
+      text-align: center;
+    }
+  }
+}
